@@ -10,7 +10,7 @@ function loadTeam(kelompok){
 	team_lap_file = teamDesc[kelompok][2];
 	team_ppt_file = teamDesc[kelompok][3];
     for (var i=0; i<=kelompok; i++) {
-		detailTeam = "<H3>PENULIS</H3>" + "<ul>";
+		detailTeam = "<H3>PENULISS</H3>" + "<ul>";
 
 	 	jum_team = anggota[kelompok].length;
 
