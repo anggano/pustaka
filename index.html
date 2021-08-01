@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  		<link rel="stylesheet" href="css/style.css">
+  		<link rel="stylesheet" href="css/bootstrap.min.css">
+  		<script src="https://apis.google.com/js/api.js"></script>
+  		<script src="js/jquery.min.js"></script>
+  		<script src="js/bootstrap.min.js"></script>
+  		<script src="js/teamDesc.js"></script>
+  		<script src="js/anggota.js"></script>
+  		<script src="js/functions.js"></script>			
+
+		<title>Praktek Kimia Terpadu 2 | ANGKATAN 61 | SMK-SMAK BOGOR</title>
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+	</head>
+
+	<body>		
+
+		<header id="header">
+			<div class="innertube">
+				<p align="right"><a href="index.html">Home</a>&nbsp;|&nbsp;
+				<a href="https://drive.smakbo.sch.id" 
+				  target="popup"
+				  onclick="window.open('http://drive.smakbo.sch.id','popup','width=400,height=400'); return false;">
+					Login
+				</a></p>
+			</div>
+		</header>
+				
+		<main>
+			<div class="innertube">
+				<p id=team_load></p>
+				<p id=ppt_load></p>	
+				<p>
+					<iframe id="pdf_load" src="main.html" width="800px" height="2100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</p>
+			</div>
+		</main>
+
+		<nav id="left">
+			<div class="innertube">
+			<!--button onclick="myFunction()">Try it</button-->
+				<!-- This is from Bootstrap for collapsing panels -->
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+			            <div class="panel-heading"><h5 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">FARMASI</a></h5></div>
+			            <div id="collapse1" class="panel-collapse collapse">
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(02)>Analisis Mutu Obat Tradisional Merek ‘X’ (Obat Anti Diare)</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(12)>Analisis Mutu Obat Maag Tablet Merk X</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(24)>Analisis Mutu Obat Anti Jamur (Anti Fungional) Berbentuk Cair Merek “X”</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(31)>Analisis Mutu Obat Tradisional Daun Kumis Kucing</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(34)>Analisis Mutu Obat Batuk Sirup Merk “X”</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(44)>Analisis Total Jamu Sariawan Usus Merek “X”</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(54)>Analisis Mutu Jamu Untuk Anak Merek “X”</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(62)>Analisis Mutu Obat Kumur Sariawan Merek “X”</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(70)>Analisis Mutu Tablet Hisap Pereda Radang Tenggorokan</a>
+			                <a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(76)>Analisis Mutu Obat Batuk Tradisional dari Buah Lo Han Kuo (Siraitia grosvenorii) Merk “X”</a>             
+			            </div>
+			        </div>
+				  
+					<div class="panel panel-default">
+			            <div class="panel-heading"><h5 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">KOSMETIK</a></h5></div>
+			            <div id="collapse2" class="panel-collapse collapse">
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(7)>Analisis mutu losion Tabir Surya Merek A dan B</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(10)>Sintesis dan analisis masker detoks wajah dari lempung bentonit dan arang aktif bambu (activated bamboo charcoal) dengan bahan tambahan tea tree oil (melaleuca alternifolia)</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(16)>Analisis mutu Masker Bengkoang Jenis Serbuk Merk "X"</a>
+              				<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(22)>Pembuatan Dan Analisis Gel Pembersih Kulit muka Dari Daun Binahong (anredera Cordifolia) dan Gel Lidah Buaya (aloe Vera) Beraroma Lemon</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(30)>Analisis Mutu Alas Bedak Cair Merk “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(36)>Analisis Pembersih Kulit Muka Merk “Y”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(43)>Analisis Mutu Krim Pemutih Wajah Temulawak</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(51)>Analisis Mutu Pembersih Kulit Muka (milk Cleanser) Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(57)>Analisis Mutu Cairan Pembersih Wajah Bermerk "X"</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(67)>Analisis Mutu Krim Pemutih Kulit</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(79)>Analisis Mutu Losio Tabir Surya Merk “X”</a>				
+						</div>
+					</div>
+
+				  	<div class="panel panel-default">
+			            <div class="panel-heading"><h5 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">LINGKUNGAN</a></h5></div>
+			            <div id="collapse3" class="panel-collapse collapse">
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(4)>Analisis Kualitas Air Sungai Ciherang Laladon Sebagai Sumber Air Bersih Masyarakat Setempat</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(13)>Analisis Kualitas Air Sumur Di Kelurahan Kalibaru, Kecamatan Medan Satria, Bekasi Barat</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(23)>Analisis Kualitas Air Limbah Domestik Di Saluran Air Daerah “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(32)>Analisis Kualitas Air Sumur Pemukiman Yang Terpengaruh Oleh Tanah Bekas Lahan Industri Peleburan Aki Ilegal Di Desa Cinangka</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(37)>Analisis Kualitas Tanah yang Dipengaruhi Penggunaan Pupuk Kandang pada Wilayah X di Daerah Cibeureum, Ciapus</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(42)>Analisis Mutu Air Kolam Renang Di Wilayah Pemukiman Penduduk</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(50)>Pengujian Kualitas Air Di Suaka Elang Loji Cijeruk, Bogor</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(72)>Analisis Kualitas Udara Di Pusat Kota Bogor </a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(77)>Analisis Kualitas Air Sungai Kalibaru Di Daerah Sukaraja</a>
+						</div>
+					</div> 
+
+ 				  	<div class="panel panel-default">
+			            <div class="panel-heading"><h5 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">MAKANAN</a></h5></div>
+			            <div id="collapse4" class="panel-collapse collapse">
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(1)>Analisis Mutu Keripik Pisang Home Industry</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(3)>Analisis Mutu Tepung Terigu Sebagai Bahan Makanan Merek B</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(9)>Analisis Mutu Bakso Daging Sapi Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(17)>Analisis Mutu Terasi Udang (Acetes)</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(29)>Analisis Mutu Biskuit Dengan Bahan Dasar Kentang</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(33)>Analisis Mutu Permen Susu Sapi Lunak Merk “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(45)>Analisis Pada Produk Biskuit Merk B Yang Digemari Anak-anak</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(47)>Analisis Total Roti Manis Kering</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(49)>Analisis Mutu Sampel Mie Kering Merk C3Y</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(52)>Analisis Mutu Kecap Kedelai Asin Merek "X"</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(58)>Analisis Mutu Cokelat Susu Kiloan Sebagai Produk Konsumsi</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(59)>Pembuatan Dan Analisis Permen Jelly Dengan Ekstrak Bunga Rosella (Hibiscus sabdariffa linn)</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(61)>Analisis Mutu Bihun Bahan Baku Tepung Beras Dengan Merek "X"</a>				
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(66)>Analisis Mutu Keripik Tempe Goreng</a>				
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(71)>Analisis Mutu Naget Ayam Merk “X”</a>				
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(78)>Analisis Mutu Siomay Ikan Tenggiri Merek “X”</a>				
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(80)>Analisis Mutu Makanan Esktrudat Merk “X”</a>				
+						</div>
+					</div>
+
+				  	<div class="panel panel-default">
+			            <div class="panel-heading"><h5 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">MINUMAN</a></h5></div>
+			            <div id="collapse5" class="panel-collapse collapse">
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(8)>Analisis Mutu Minuman Teh (Camellia sinensis) Dalam Kemasan Merek “Z”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(11)>Analisis Mutu Teh Kering Dalam Kemasan Merk "X"</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(15)>Analisis Mutu Minuman Air Kelapa dalam Kemasan</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(19)>Analisis Total Minuman Isotonik Bermerk "X"</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(20)>Analisis Kandungan Mineral Laut Dan Uji Mutu Dalam Minuman Isotonik Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(26)>Analisis Mutu Air Minum Embun Yang Berkhasiatuntuk Kesehatan</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(28)>Analisis Mutu Minuman Sari Buah Pala Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(38)>Analisis Mutu Sirup Rasa Markisa Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(39)>Analisis Kopi Instan Dengan Merek "X"</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(41)>Analisis Minuman Berenergi Sebagai Pemicu Kerja Tubuh</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(46)>Analisis Total Kopi Bubuk Merk “K”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(53)>Analisis Mutu Minuman Kedelai Bubuk Merk "X"</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(55)>Analisis Minuman Cokelat Bubuk Merek “X” Dalam Kemasan</a>					
+ 							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(60)>Analisis Mutu Susu Ultra High Temperature (UHT) Merek “X"</a>					
+ 							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(63)>Analisis Mutu Susu Sapi Fermentasi Dengan Starter Biji Kefir</a>					
+ 							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(65)>Analisis Mutu Minuman Sari Buah Apel Merek “X”</a>					
+ 							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(69)>Analisis Susu Murni (Totum lac) Home Industry</a>					
+ 							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(74)>Analisis Total Minuman Sari Buah Delima Bermerk “B”</a>					
+ 							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(75)>Analisis Mutu Minuman Teh (Camellia Sinensis) Dalam Kemasan Dengan Merek “G”</a>					
+ 						</div>
+					</div>
+				  
+				  	<div class="panel panel-default">				
+						<div class="panel-heading"><h5 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">MANUFAKTUR</a></h5></div>
+			            <div id="collapse6" class="panel-collapse collapse">
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(5)>Analisis Mutu Minyak Goreng Sawit Curah Di Pasar X</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(6)>Analisis Pembersih Lantai Berdesinfektan Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(14)>Analisis Total Minyak Biji Bunga Matahari Sebagai Minyak Goreng</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(18)>Analisis Mutu Sabun Mandi Cair Merek “Z”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(21)>Analisis Perbandingan Mutu Pasta Gigi Anak Merek ‘X’ Dengan Pasta Gigi Dewasa Merek ‘X’</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(25)>Analisis Mutu Gipsum Untuk Bahan Bangunan</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(27)>Analisis Mutu Deterjen Cair Pencuci Pakaian</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(35)>Analisis Total Produk Pupuk Organik Cair (POC) Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(40)>Analisis Deterjen Cuci Cair Merk “X” Dan “Y” Untuk Peralatan Dapur</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(48)>Analisis Total Pembersih Lantai Berdesinfektan Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(56)>Analisis Mutu Pasta Gigi Merek “X”</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(64)>Analisis Mutu Pakan Buatan Untuk Ikan Gurami (Osphronemus goramy,Lac.) Merk X</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(68)>Analisis Mutu Pakan Konsentrat Untuk Sapi Perah</a>
+							<a href="#" class="list-group-item list-group-item-action bg-light" onClick=loadTeam(73)>Analisis Kualitas Cat Tembok Emulsi Kiloan Merek “X”</a>
+						</div>
+					</div>
+			    </div>
+		    </div>
+		</nav>	
+		<footer id="footer">
+			<div class="innertube">
+				<p align="right">Copyright 2016 - 2018 - SMK SMAK BOGOR</p>
+			</div>
+		</footer>	
+			
+	</body>
+</html>
